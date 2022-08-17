@@ -1,17 +1,17 @@
 def print_operations():
     """
-    Runs all of the print and string operations, consisting basic python scenarios
+    Runs all the print and string operations, consisting basic python scenarios
     """
-    # simple print statement
+    # Simple print statement
     print("Hitesh")
     # formatted print
     name = 'Hitesh'
     surname = 'Pandey'
     print(f"My name is {name} {surname}")
 
-    # operator * operation on string to numerical
-    # python doesn't give error in this case
-    # it will instead print * ten times
+    # Operator * operation on string to numerical
+    # Python doesn't give error in this case
+    # It will instead print * ten times
     print('*' * 10)
 
 

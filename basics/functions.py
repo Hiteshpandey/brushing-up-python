@@ -1,4 +1,4 @@
-# functions are small block of resuable codes that can be used anywhere conveniently
+# Functions are small block of resuable codes that can be used anywhere conveniently
 # In python function is defined by def key word followed with function name and () ending with :
 # It's a good practice to provide docstring info for each function explaining what it does and what it requires
 # Note:- docstring startin with !-- are my notes not the docstring parameters
