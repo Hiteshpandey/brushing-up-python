@@ -1,0 +1,3 @@
+# This file in any directly marks the files in it as packages
+# This allows the files with it to be imported and functions inside it to be used when imported
+# Create multiple directories and put __init__ file in it, then use the function definitions or class inside it.
