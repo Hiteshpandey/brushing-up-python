@@ -1,6 +1,6 @@
 # python provides various predefined data structures so that we can organize our data better
 
-def list_data_structure():
+def run_list_data_structure_operations():
     """
     runs several operations on list data structure
     """
@@ -15,8 +15,11 @@ def list_data_structure():
     """
     Adds element to the END of the list
     """
+    print("Append to list 6")
     my_list.append(6)
+    print("Append to list 7")
     my_list.append(7)
+    print("Append to list 8")
     my_list.append(8)
     print("Appended list: ", my_list)
 
@@ -26,6 +29,7 @@ def list_data_structure():
     It will insert the element on the provided index and shift all the elements on the right to right
     Elements will not be deleted
     """
+    print("Insert to list")
     # myList.insert(index, element)
     my_list.insert(2, 'element')
     print("Insert 'element' on the 2th index: ", my_list)
@@ -33,39 +37,63 @@ def list_data_structure():
     # POP
     # Remove element from the list from the provided index and returns it
     # By default deletes the end element and returns it
-    my_list.pop()
+    print("Pop element from end of list, popped element", my_list.pop())
     # Remove element on the 3rd index
-    my_list.pop('3')
+    print("Pop element from 3rd index of list, popped element", my_list.pop(3))
 
-
+    """
     # REMOVE
-    # remove the provided element from the list
+    Remove the provided element from the list
+    """
     my_list.remove('element')
     print("Removed element 'element'", my_list)
 
+    """
+    FIND a value exist or not
+    this can be simply done using in keyword
+    """
+    print('check if "element" string is in the list', 'element' in my_list)
+    print('check if 9 value is in the list', 9 in my_list)
+
+    """
     # SLICING
     # my_list[start_index: stop_before_index]
+    """
+    print("Slicing of the list")
     print(my_list[:2])
     print(my_list[1:4])
     print(my_list[1:])
     # returns everything
     print(my_list[:])
 
+    """
     # REVERSE LIST
     # START default i.e 0, END default i.e end of the list and -1 that is reverse steps incremented by one
     # Returns the new list
+    """
+    print("Reversing list")
     print(my_list[::-1])
     # Updates the original list
     my_list.reverse()
+    print("By reversed method mutating list")
+    print(my_list)
 
     # LENGTH / SIZE OF LIST
+    print("Length of the list")
     print(len(my_list))
 
     # MIN MAX VALUE
+    print("Max and min value in the list")
     # finds the minimum or max values from the list
     # Better works on the list with only one type (homogeneous) of elements
     print(min(my_list))
     print(max(my_list))
+
+    # CONVERT TUPLE TO LIST
+    tpl = (1, 2, 3, 4)
+    lst = list(tpl)
+    print("list : ", tpl)
+    print("list to tuple: ", lst)
 
 
 

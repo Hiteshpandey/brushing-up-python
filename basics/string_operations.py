@@ -29,9 +29,16 @@ def run_string_operations():
 
     # CAPITALIZE the text
     print('capitalize string: ', string.capitalize())
+    # same
+    print('capitalize string: ', string.title())
 
     # LOWERCASE string
     print("lowercase string: ", string.casefold())
+    # Same
+    print("lowercase string: ", string.lower())
+
+    # UPPERCASE string
+    print("upper case stirng: ", string.upper())
 
     # COUNT OCCURRENCE of the specific word
     print("count times ld occurred in the string: ", string.count('ld'))
@@ -44,6 +51,7 @@ def run_string_operations():
     # Default encoding to utf-8
     print("utf8 encoded: ", ustring.encode())
     # ascii
+    # Commented due to throwing errors, which the below two definintions fix
     # ustring = 'pythön!'
     # print("ascii encoded: ", ustring.encode('ascii'))
     ustring = 'pythön!'
@@ -59,19 +67,22 @@ def run_string_operations():
     print('Message string end with fun or not: ', message.endswith('fun'))
 
     # Search/Find a substring
+    # Shorthand way of finding string
+    print("Short hand find Python in string", 'Python' in message)
+
     # returns -1 if not found
     message = 'Python is a fun programming language'
     print('Message string: ', message)
     # check the index of 'fun'
     # returns index of search
-    print('Message string "fun": ', message.find('fun'))
+    print('Message string "fun" index: ', message.find('fun'))
 
     # Find index of a substring
     # Raises exception if string not found
     txt = "Hello, welcome to my world."
     print('Message string: ', txt)
     x = txt.index("welcome")
-    print('Message string "welcome" index: ', x)
+    print('word "welcome" index: ', x)
 
     # Removing leading or trailing space
     txt = "     banana     "
@@ -92,5 +103,11 @@ def run_string_operations():
     # Split with spaces (space is the default when nothing is specified)
     x = txt.split(" ")
     print('String split into array: ', x)
+
+    # Search and replace string
+    print("Search and replace jungle with palace")
+    txt = "welcome to the jungle"
+    print("message string : ", txt)
+    print("Replaced string :", txt.replace('jungle', 'palace'))
 
 
