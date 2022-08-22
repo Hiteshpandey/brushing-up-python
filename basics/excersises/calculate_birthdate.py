@@ -14,3 +14,5 @@ def calculate_birthdate():
     # operations on different types are not permitted
     age = day.year - int(birth_year)
     print(age)
+
+calculate_birthdate()

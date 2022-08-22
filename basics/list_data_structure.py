@@ -95,5 +95,36 @@ def run_list_data_structure_operations():
     print("list : ", tpl)
     print("list to tuple: ", lst)
 
+    # 2D LISTS
+    # This can be seen as list inside of list
+    # And represented as a grid or a mathematical matrix
+    # Very useful for data that requires two or more value to represent
+    # Eg such as (x,y) axis, displacement distance points, graphs etc.
+    """
+    [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+    ]
+    """
 
+    matrix = [
+        [1, 2, 3],
+        [4, 5, 6, 6],
+        [7, 8, 9],
+    ]
 
+    print("2D Lists", matrix)
+    print("2D First row", matrix[0])
+    print("2D first element from the first row", matrix[0][0])
+    print("Number of rows: ", len(matrix))
+    print("Number of columns in the first row", len(matrix[0]))
+    print("Number of columns in the second row", len(matrix[1]))
+
+    print("Looping over matrix")
+
+    for row in matrix:
+        # the i will contain list of items in first row
+        print("Printing first row elements")
+        for i in range(len(row)):
+            print(f"{i} element: ", row[i])
