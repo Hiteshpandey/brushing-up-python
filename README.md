@@ -6,7 +6,7 @@
 * [Functions](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/functions.py)
 * [Conditional Statements](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/conditions.py)
 * [Loops](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/loops.py)
-* [Command Line Arguements][https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/command_line_arguements.py]
+* [Command Line Arguements](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/command_line_arguements.py)
 * [Exercises](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/excersises/)
   - [List](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/excersises/lists/)
   - [Dictionary](https://github.com/Hiteshpandey/brushing-up-python/blob/main/basics/excersises/dictionary/)
