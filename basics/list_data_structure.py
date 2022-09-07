@@ -81,6 +81,15 @@ def run_list_data_structure_operations():
     # LENGTH / SIZE OF LIST
     print("Length of the list")
     print(len(my_list))
+    
+    # GET INDEX OF THE ELEMENT
+    # If number not in the list, it will give value error
+    print(my_list.index(2))
+
+    # COUNT NUMBER OF ELEMENTS REPEATED IN THE LIST
+    my_list.push(10)
+    my_list.push(10)
+    print(my_list.count(10))
 
     # MIN MAX VALUE
     print("Max and min value in the list")

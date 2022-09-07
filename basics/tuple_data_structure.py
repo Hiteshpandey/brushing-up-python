@@ -6,6 +6,13 @@ def tuple_data_structure():
     # this means it cannot be updated once it is created
     tupllist = (1, 2, 3, 4, 5)
     print('list: ', tupllist)
+    print("Third item: ", tupllist[2])
+
+    """
+    Get index of the first occurance in tuple
+    """
+    print("First occurance of 3")
+    print(tupllist.index(3))
 
     """
     Appending:
@@ -31,3 +38,5 @@ def tuple_data_structure():
 
     # Find value using in keyword
     print("Chck If 5 in tuple", 5 in tuple)
+
+tuple_data_structure()
